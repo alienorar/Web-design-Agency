@@ -24,7 +24,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .nav_logo{
     cursor: pointer;
@@ -77,6 +82,7 @@ body{
 
 /* Hero */
 .hero{
+    margin-top: 200px;
     display: flex;
     padding: 30px;
 
@@ -170,6 +176,7 @@ border-left: 0.5px solid rgb(204, 197, 197);
 
 .serv_card img:hover{
   transform: scale(1.2);
+
 }
 .serv_card h2{
     font-family:Roboto;
@@ -222,6 +229,7 @@ align-items: center;
 }
 .off_card:hover{
     transform: scale(1.1);
+    border: 2px solid #e87026;
   }
 .off_card-top{
     position: absolute;
@@ -292,6 +300,7 @@ transition: all 0.3s linear;
 }
 .ltpost:hover{
     transform: scale(1.1);
+    border: 2px solid #e87026;
   }
 .ltpost h2{
     font-family:Roboto;
@@ -353,6 +362,7 @@ gap: 20px;
 }
 .team_card:hover{
     transform: scale(1.1);
+    border: 2px solid #e87026;
   }
 .team_info{
     padding: 30px;
